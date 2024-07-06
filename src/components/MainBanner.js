@@ -40,7 +40,6 @@ export const MainBanner = () => {
       </Typography>
       <Button
         variant="contained"
-        color="error"
         href="#exercisews"
         sx={{ backgroundColor: "#00d1d4" }}
       >
