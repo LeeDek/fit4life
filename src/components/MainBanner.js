@@ -5,14 +5,27 @@ import fit4life from "../assets/fit4life-5.jpg";
 export const MainBanner = () => {
   return (
     <Box
+      display="flex"
+      flexDirection="column"
+      justifyContent="center"
+      alignItems="center"
       sx={{
-        mt: { lg: "212px", xs: "70px" },
-        ml: { sm: "50px" },
+        mt: { lg: "100px", xs: "50px" },
       }}
       position="relative"
       p="20px"
+      alignContent="center"
     >
-      <Typography color="#117bad" fontWeight="600">
+      <Typography
+        color="#117bad"
+        fontWeight="600"
+        fontSize="35px"
+        fontFamily="monospace"
+        marginBottom="25px"
+        sx={{
+          opacity: 0.7,
+        }}
+      >
         Fit4U
       </Typography>
       <Typography
@@ -28,10 +41,10 @@ export const MainBanner = () => {
         fontWeight={600}
         color="#117bad"
         sx={{
-          opacity: 0.1,
+          opacity: 0.2,
           display: { lg: "block", sx: "none" },
         }}
-        fontSize="200px"
+        fontSize="160px"
       >
         Studio
       </Typography>
